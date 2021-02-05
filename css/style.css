@@ -1,0 +1,54 @@
+
+body{
+    font-size: 15px;
+    margin:0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    overflow: hidden;
+}
+.principal-text{
+    font-weight: 700 ;
+    width:340px;
+    height:150px;
+    font-size: 40px;
+    display: flex;
+    color:  hsl(300, 43%, 22%);
+    margin-left:3px;
+    z-index: 2;
+    top: 10px;
+    margin-bottom: 40px;
+}
+.description{
+    font-weight: lighter;
+    width: 380px;
+    height:60px;
+    font-size:12px;
+    color:hsl(303, 10%, 53%);
+    line-height: 18px;
+    margin-top: 10px;
+}
+.container-img1{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.imgsuperior{
+    
+    display: flex;
+    z-index: 1;
+
+}
+.container-img2{
+    position: absolute;
+    right:0;
+    bottom: -140px;
+   
+}
+.imginferior{
+    display: flex;
+    z-index: 1;
+}
+.container-principal{
+    margin :105px;
+    border: 1px solid pink;
+}
